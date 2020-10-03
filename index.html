@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fylo</title>
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1200px)">
+        <link rel="stylesheet" href="./css/tablets.css" media="screen and (min-width:537px)">
+        <link rel="stylesheet" href="./css/tablatm.css" media="screen and (min-width:750px)">
+        <link rel="stylesheet" href="./css/desktops.css" media="screen and (min-width:1024px)">
+        <link rel="stylesheet" href="./css/desktopm.css" media="screen and (min-width:1240px)">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -15,9 +18,9 @@
             </figure>
             <nav>
                 <ul>
-                    <a href="#"><li>Features</li></a>
-                    <a href="#"><li>Team</li></a>
-                    <a href="#"><li>Sign in</li></a>
+                    <a href="#features"><li>Features</li></a>
+                    <a href="#term"><li>Team</li></a>
+                    <a href="#access"><li>Sign in</li></a>
                 </ul>
             </nav>
         </header>
@@ -33,7 +36,7 @@
                 <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
                 <a href="#access"><button class="button-started">Get Started</button></a>
             </section>
-            <section class="prop-container">
+            <section id="features" class="prop-container">
                 <div class="prop-container--items">
                     <figure class="prop-container--items--img img-access"></figure>
                     <h3>Access your files, anywhere.</h3>
@@ -116,7 +119,7 @@
                 </form>
             </section>
         </main>
-        <footer>
+        <footer id="term">
             <div class="location-container">
                 <figure class="location-container--logo">
                     <img src="./img/logo.svg" alt="Logo de Fylo">

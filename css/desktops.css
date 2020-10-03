@@ -1,0 +1,190 @@
+body {
+    font-size: 1.6rem;
+}
+
+p {
+    line-height: 23px;
+}
+
+header {
+    padding: 0 25px;
+}
+
+.main-container {
+    background: linear-gradient( var(--dark-blue-1) 100%, var(--dark-blue-2)50%);
+}
+
+.main-container--img img {
+    width: 60%;
+}
+
+.montain img {
+    height: 295px;
+    top: 61.5%;
+}
+
+.main-container h1 {
+    width: 43%;
+}
+
+.main-container p {
+    width: 49%;
+    margin: 25px auto;
+    line-height: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-container a {
+    position: relative;
+    z-index: 1;
+}
+
+.prop-container {
+    width: 91%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prop-container--items {
+    width: 42%;
+    margin-top: 80px;
+}
+
+.prop-container--items p {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.productive-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productive-container .main-container--img img {
+    width: 90%;
+}
+
+.productive-container--inf h2 {
+    width: 46%;
+    text-align: left;
+}
+
+.comments-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes {
+    width: 0;
+}
+
+.quotes img {
+    width: 50px;
+    top: -30px;
+    left: -5px;
+}
+
+.comments-container--items {
+    margin: 0 10px;
+    margin-bottom: 0;
+}
+
+.access-container {
+    width: 76%;
+    top: 110.7px;
+}
+
+.access-container p {
+    width: 76%;
+}
+
+.form-email {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.form-email input {
+    margin: 0;
+    width: 500px;
+}
+
+.access-container .form-email .button-started {
+    width: 184px;
+    margin: 0 30px;
+}
+
+footer {
+    height: 460px;
+    display: flex;
+    padding: 0px 55px;
+    padding-top: 167px;
+}
+
+.location-container {
+    margin-right: 50px;
+    width: 162%;
+}
+
+.location-container--logo {
+    margin: 0;
+}
+
+.location {
+    top: 25px;
+    right: 65px;
+}
+
+.location-container p {
+    width: 102%;
+    margin-top: 0;
+}
+
+.contact-container {
+    margin-right: 40px;
+    margin-left: 25px;
+    align-self: center;
+    position: relative;
+    bottom: 51px;
+}
+
+.contact-container p {
+    width: 100%;
+}
+
+.phone, .gmain {
+    width: 90%;
+    position: relative;
+    right: 45px;
+}
+
+.inf-proyect {
+    margin: 0;
+    align-self: center;
+}
+
+.terms-container {
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.terms-container ul {
+    position: relative;
+    bottom: 19px;   
+}
+
+.redes {
+    height: 170px;
+}

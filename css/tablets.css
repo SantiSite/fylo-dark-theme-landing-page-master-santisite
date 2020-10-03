@@ -1,0 +1,24 @@
+.main-container {
+    background: linear-gradient( var(--dark-blue-1) 60%, var(--dark-blue-2)50%);
+}
+
+.main-container--img {
+    margin-bottom: 37px;
+}
+
+.main-container--img img {
+    width: 60%;
+}
+
+.montain img {
+    top: 180px; 
+}
+
+.access-container {
+    top: 154.6px;
+}
+
+.form-email {
+    width: 70%;
+    margin: 0 auto;
+}
